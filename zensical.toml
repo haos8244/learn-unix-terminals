@@ -11,7 +11,7 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Shell & CLI Fundamentals"
+site_name = "Learn Unix Terminals"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
@@ -27,7 +27,7 @@ site_author = "Hans-Kristain Erik Östlund"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-site_url = "https://haos8244.github.io/shell-cli-fundamentals"
+site_url = "https://github.com/haos8244/learn-unix-terminals"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
@@ -38,8 +38,8 @@ copyright = """
 	<a href="#__consent">Change Cookie Settings</a>
 """
 
-repo_url = "https://github.com/haos8244/shell-cli-fundamentals"
-repo_name = "shell-cli-fundamentals"
+repo_url = "https://github.com/haos8244/learn-unix-terminals"
+repo_name = "learn-unix-terminals"
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
 # If you decide not to define a navigation here then Zensical will simply
@@ -55,39 +55,34 @@ repo_name = "shell-cli-fundamentals"
 
 nav = [
 	{"Home" = "index.md"},
-	{"Get Started" = "getstarted.md"},
+	{"Getting Started" = "gettingstarted.md"},
 	{"Workshop" = [
-		{"The Command Line" = [
-			{"overview" = "workshop/terminalshells/index.md"},
-			{"Temp" = "workshop/terminalshells/temp.md"}
+		{"1. The Command Line" = [
+			{"Temp" = "workshop/the-command-line/temp.md"}
 		]},
-		{"Files & Directories" = [
-			{"overview" = "workshop/filesystems/index.md"},
-			{"Temp" = "workshop/filesystems/temp.md"}
+		{"2. Files & Directories" = [
+			{"Temp" = "workshop/files-and-directories/temp.md"}
 		]},
-		{"Users & Permissions" = [
-			{"overview" = "workshop/permissions/index.md"},
-			{"Temp" = "workshop/permissions/temp.md"}
+		{"3. Users & Permissions" = [
+			{"Temp" = "workshop/users-and-permissions/temp.md"}
 		]},
-		{"Executing Commands" = [
-			{"overview" = "workshop/programs/index.md"},
-			{"Temp" = "workshop/programs/temp.md"}
+		{"4. Executing Commands" = [
+			{"Temp" = "workshop/executing-commands/temp.md"}
 		]},
-		{"Data Streams & Piping" = [
-			{"overview" = "workshop/inputoutput/index.md"},
-			{"Temp" = "workshop/inputoutput/temp.md"}
+		{"5. Data Streams & Piping" = [
+			{"Temp" = "workshop/data-streams-and-piping/temp.md"}
 		]},
-		{"Package Management" = [
-			{"overview" = "workshop/packages/index.md"},
-			{"Temp" = "workshop/packages/temp.md"}
+		{"6. Package Management" = [
+			{"Temp" = "workshop/package-management/temp.md"}
 		]},
-		{"Terminal Text Editors" = [
-			{"overview" = "workshop/texteditors/index.md"},
-			{"Temp" = "workshop/texteditors/temp.md"}
+		{"7. Networking Basics" = [
+			{"Temp" = "workshop/networking-basics/temp.md"},
 		]},
-		{"Shell Scripting" = [
-			{"overview" = "workshop/shellscripting/index.md"},
-			{"Temp" = "workshop/shellscripting/temp.md"}
+		{"8. Terminal Text Editors" = [
+			{"Temp" = "workshop/terminal-text-editors/temp.md"}
+		]},
+		{"9. Shell Scripting" = [
+			{"Temp" = "workshop/shell-scripting/temp.md"}
 		]},
 		]},
 	{"Community" = [
@@ -99,8 +94,10 @@ nav = [
 		{"Contribute" = [
 			{"Overview" = "community/contribute/index.md"},
 			{"Bug Reports" = "community/contribute/bugreports.md"},
-			{"Pull Requests" = "community/contribute/pullrequests.md"},
-			{"Code of Conduct" = "community/contribute/codeofconduct.md"}
+			{"Pull Requests" = """
+				community/contribute/pullrequests.md"""},
+			{"Code of Conduct" = """
+				community/contribute/codeofconduct.md"""}
 		]},
 		{"Guides" = [
 			{"Reproductions" = "community/guides/reproductions.md"},
