@@ -58,7 +58,7 @@ nav = [
 	{"Getting Started" = "gettingstarted.md"},
 	{"Workshop" = [
 		{"1. The Command Line" = [
-			{"Temp" = "workshop/the-command-line/temp.md"}
+			{"Hello Terminal" = "workshop/the-command-line/hello-terminal.md"}
 		]},
 		{"2. Files & Directories" = [
 			{"Temp" = "workshop/files-and-directories/temp.md"}

@@ -1,3 +1,0 @@
-# Terminals & Shells
-
-test

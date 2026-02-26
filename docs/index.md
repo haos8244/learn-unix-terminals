@@ -22,7 +22,7 @@ hide:
 
 <!-- Alias -->
 [github-repo]:             https://github.com/haos8244/learn-unix-terminals
-[the-command-line]:        workshop/the-command-line/temp.md
+[the-command-line]:        workshop/the-command-line/hello-terminal.md
 [files-and-directories]:   workshop/files-and-directories/temp.md
 [users-and-permissions]:   workshop/users-and-permissions/temp.md
 [executing-commands]:      workshop/executing-commands/temp.md
@@ -45,7 +45,7 @@ teach you shells, filesystems, and Unix tools that developers use every
 day. Once you learn how this system works harmoniously, you will always
 wonder how you lived without them.** 
 
-[Get Started :lucide-rocket:](getstarted.md){.md-button .md-button--primary}
+[Get Started :lucide-rocket:](gettingstarted.md){.md-button .md-button--primary}
 [View on GitHub :simple-git:][github-repo]{.md-button}
 
 ---

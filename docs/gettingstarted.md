@@ -23,7 +23,7 @@ hide:
 
 <!-- Alias -->
 [fuck-microsoft]:   https://media1.tenor.com/m/-aZGk99QVM8AAAAd/space-force-microsoft.gif
-[the-command-line]: workshop/the-command-line/temp.md
+[the-command-line]: workshop/the-command-line/hello-terminal.md
 
 # Getting Started
 
@@ -55,7 +55,7 @@ and directories, configure your system enviornment, and make use of CLI tools.
 ## Prerequisites
 
 - [x] A computer running Linux, macOS, or Windows.
-	* [ ] Using another OS? Why are you here?
+	* [ ] Using another OS? Why are you even here?
 
 
 ---
@@ -122,6 +122,19 @@ operating system:**
         These instructions require **Windows 10 or 11** in order to get 
 	    WSL 2 and the Ubuntu shell up and running.
 
+    ??? Failure "Where is the official WSL installation guide?"
+		Microsoft's official guide is available at
+		[aka.ms/wslinstall](https://aka.ms/wslinstall). Check if you
+		missed any steps there.
+
+    ??? Failure "Error: A required feature is not installed"
+		You need to enable **Hyper-V (Virtualization)**:
+
+		1. Open **Windows Features**
+		2. Enable both **Hyper-V Management Tools** and
+		**Hyper-V Platform**
+		3. You may also need to enable virtualization in your **BIOS**
+
     - [x] **1. Run Windows Update**
         1. Open the **Start menu** and search for `Windows Update Settings`
     	2. Click **Check for updates**
@@ -182,22 +195,19 @@ operating system:**
 		It is still a massive improvement and is a good begineer 
 		friendly OS with LTS. But, it is everything that the Linux 
 		community strives against. It can be argued that Ubuntu is a 
-		strong reason why many people who try Linux is immediately 
+		strong reason why many people who try Linux are immediately 
 		turned off and leave. However, for the beginner purposes 
 		of this workshop, this is what will be reccomended to be setup.
 
-    ??? Failure "Where is the official WSL installation guide?"
-		Microsoft's official guide is available at
-		[aka.ms/wslinstall](https://aka.ms/wslinstall). Check if you
-		missed any steps there.
+=== "Chromebook (ChromeOS)"
+	Enable the Linux development environment. You can then open the 
+	**Terminal** from your app launcher.
 
-    ??? Failure "Error: A required feature is not installed"
-		You need to enable **Hyper-V (Virtualization)**:
-
-		1. Open **Windows Features**
-		2. Enable both **Hyper-V Management Tools** and
-		**Hyper-V Platform**
-		3. You may also need to enable virtualization in your **BIOS**
+	- [x] **Enable Linux Development Environment**
+           1. Settings
+	    2. Advanced
+	    3. Developers
+	    4. Linux Development Environment
 
 ---
 
@@ -221,7 +231,7 @@ like `ls`, `cd`, or `pwd`
 
 **Keyboard shortcuts**: keys to press, like ++ctrl+c++ or ++tab++
 
-**Admonitions**: callout boxes:
+**Admonitions**:
 
 !!! note
 
@@ -273,15 +283,32 @@ Lines without `$` are the expected output.
 
 ## What to Expect
 
-Each section of the tutorial will flow with a similar structure:
+### Structure
+Each section of the workshop will flow with a similar structure:
 
-1. **Introduction** - what the topic is and why it matters
-2. **Concepts** - the theory behind it, kept brief and practical
-3. **Commands** - the key commands with examples
-4. **Walkthrough** - exercises to practice
-5. **Tips** - best practices and common gotchas
-6. **Questions** - to check comprehension before moving on
+1. **Introduction**: what the topic is and why it matters
+2. **Concepts**: the theory behind it, kept brief and practical
+3. **Commands**: the key commands with examples
+4. **Walkthrough**: exercises to practice
+5. **Tips**: best practices and common gotchas
+6. **Questions**: to check comprehension before moving on
+
+### Learning Objectives
+
+- [x] Distinguish between a terminal and a shell
+- [x] Navigate & manipulate files and directories via the command line
+- [x] Understand & modify user permissions and access
+- [x] Execute programs, scripts, processes, manage your `PATH`, 
+	and environment variables.
+- [x] Connect commands together using pipes and data streams
+- [x] Install and manage software with package managers
+- [x] Interact with networks and remote machines via the command line
+- [x] Open, edit and save files using terminal-based text editors
+- [x] Write shell scripts to automate repetitive typical tasks
+
+*This course will help your confidence working in a command line, a necessary 
+skill that you will continuously rely on.*
 
 ---
 
-[Start the Tutorial :lucide-arrow-right:][the-command-line]{ .md-button .md-button--primary }
+[Start the Workshop :lucide-arrow-right:][the-command-line]{ .md-button .md-button--primary }
